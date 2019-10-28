@@ -24,7 +24,7 @@ class Artist
 
   def genres
     Song.genre.include? (artist)
-    end
+  
   end
 
 end
