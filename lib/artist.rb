@@ -17,7 +17,7 @@ class Artist
   def songs
     Song.all.select do |song|
       song.customer == self
-  end
+    end
   end
 
   def genres
