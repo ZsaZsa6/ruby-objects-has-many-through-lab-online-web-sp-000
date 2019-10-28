@@ -14,7 +14,7 @@ class Genre
   end
 
   def songs
-    Song.new 
+    Song.new (name, artist, self)
   end
 
   def artists
