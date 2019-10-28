@@ -14,7 +14,7 @@ class Genre
   end
 
   def songs
-    
+    Song.new 
   end
 
   def artists
