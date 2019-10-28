@@ -23,6 +23,8 @@ class Artist
   end
 
   def genres
+    Song.all.select do |song|
+      song.genre 
   end
 
 end
