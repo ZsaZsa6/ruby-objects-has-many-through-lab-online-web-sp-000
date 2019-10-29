@@ -23,7 +23,8 @@ class Artist
   end
 
   def genres
-    Song.all.select do |artist| song.artist.include?(genre)
+    Song.all.select do |genre|
+      genre.artist == self
 
   end
 
