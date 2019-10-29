@@ -24,6 +24,6 @@ class Artist
 
   def genres
     self.songs.map {|genre| genre}
-    end
+
   end
 end
