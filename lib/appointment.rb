@@ -18,6 +18,9 @@ class Appointment
     def patient
       @patient
     end
+
     def doctor
       @doctor
+    end
+    
 end
