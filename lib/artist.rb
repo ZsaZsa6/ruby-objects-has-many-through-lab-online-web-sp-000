@@ -23,7 +23,7 @@ class Artist
   end
 
   def genres
-    Song.all.artist.include?(genre)
+    Song.new.artist.include?(genre)
 
   end
 
